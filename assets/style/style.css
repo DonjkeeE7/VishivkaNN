@@ -1,0 +1,1723 @@
+.section-double {
+    background: url(../img/section-welcome.png) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar>.container-fluid {
+    width: 1320px;
+    padding: 0;
+}
+.container{
+    overflow: hidden;
+}
+.row{
+    overflow: hidden;
+}
+.section-double header .btn {
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #135284;
+    border: 0;
+}
+.nav-link:focus, .nav-link:hover {
+    color: white !important;
+}
+.bg-body-tertiary {
+    padding: 0;
+}
+
+.nav-item a {
+    color: white;
+    font-size: 20px;
+    padding: 0 !important;
+    font-family: 'Montserrat';
+    transition: 0s;
+
+}
+
+.nav-item a:hover {
+    text-decoration: underline solid 2px white;
+    text-underline-offset: 5px;
+    transition: 2s;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-nav {
+    gap: 50px;
+}
+
+.section-welcome h1 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Faberge';
+    width: 887px;
+    font-weight: 500;
+    margin-top: 110px;
+}
+
+.section-welcome p {
+    font-size: 24px;
+    color: white;
+    font-family: 'Montserrat';
+    width: 607px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.section-welcome .btn-primary {
+    width: 260px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 1s;
+    background-color: #ffffff;
+    color: #135284;
+    border: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.btn-primary:hover {
+    background-color: #A3286E;
+    transition: 1s;
+    color: #ffffff;
+}
+
+.section-onas img {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    width: 626px;
+    height: 718px;
+}
+
+.square {
+    width: 626px;
+    height: 650px;
+    background-color: #135284;
+    margin-top: 34px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-onas .col-6 {
+    padding: 0;
+    height: 726px;
+}
+
+.section-onas h1 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Faberge';
+    font-weight: 500;
+    margin-bottom: 40px !important;
+    padding-left: 24px;
+}
+
+.section-onas p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    width: 576px;
+    padding-left: 24px;
+    margin-bottom: 0;
+
+}
+
+.section-bannerfirst .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-bannerfirst .logo {
+    height: 50px;
+    width: 58px;
+    margin: 5px;
+}
+
+.section-bannerfirst {
+    background-color: #135284;
+}
+
+.section-bannerfirst .elements {
+    display: flex;
+    align-items: center;
+    width: 468px;
+    height: 60px;
+    margin: 10px;
+    padding: 0;
+}
+
+.section-bannerfirst .strelka {
+    animation-name: strelka-to-button;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes strelka-to-button {
+    0% {
+        margin-left: 0;
+        margin-right: 46px;
+    }
+
+    100% {
+        margin-left: 36px;
+        margin-right: 10px;
+    }
+}
+
+.section-bannerfirst .btnn-primary {
+    animation-name: color-to-red;
+}
+
+@keyframes color-to-red {
+    0% {
+        background-color: white;
+        color: #135284;
+    }
+
+    100% {
+        background-color: red;
+        color: white;
+    }
+}
+
+
+.section-bannerfirst .row {
+    padding: 0;
+}
+
+.section-bannerfirst .elements p {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+
+.section-bannerfirst .strelka {
+    margin-right: 46px;
+}
+
+.section-bannerfirst .btnn-primary {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 1s;
+    background-color: #ffffff;
+    color: #135284;
+    border-radius: 1px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: color-to-red;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.section-products {
+    background-image: url(../img/section-tovar\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-products .container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-products .first {
+    width: 1320px;
+    height: 530px;
+    background-color: rgba(255, 255, 255, 0.603);
+}
+
+.section-products h1 {
+    font-size: 42px;
+    color: #135284;
+    font-family: 'Faberge';
+    font-weight: 500;
+    width: 100%;
+}
+
+.section-products .start {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    color: #135284;
+    width: 100%;
+}
+
+.section-products .col-3 img {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.section-products .col-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    padding-right: 0 !important;
+    padding-left: 30px;
+}
+
+.section-products .col-9 {
+    display: flex;
+    justify-content: end;
+    padding: 0 !important;
+    align-items: center;
+}
+
+.section-products .carousel-item .row {
+    gap: 55px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 40px;
+    bottom: -50px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+
+.section-products .col-9 .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-products .col-9 .card .card-body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-products .col-9 .card h5 {
+    width: auto;
+}
+
+.section-products .col-9 .card p {
+    width: auto;
+    margin-top: 15px;
+}
+
+.section-products .col-9 .card img {
+    width: 185px;
+    height: 180px;
+    margin-top: 18px;
+}
+
+.section-products .btnnn-primaryy {
+    width: 170px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 1s;
+    background-color: #135284;
+    color: #ffffff;
+    border-radius: 5px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+.btnnn-primaryy:hover {
+    background-color: #A3286E;
+    transition: 1s;
+    color: #ffffff;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 35px;
+    height: 5px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #135284;
+}
+
+.section-reviews {
+    background-image: url(../img/section-reviews.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-reviews .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-reviews .card {
+    width: 577px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    background-color: #135284;
+}
+
+.section-reviews .card img {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.section-reviews .card h4 {
+    font-size: 32px;
+}
+
+.section-reviews .card h5 {
+    font-size: 20px;
+}
+
+.section-reviews .card .phototext {
+    display: flex;
+    align-items: center;
+}
+
+.section-reviews .card .phototext .text {
+    font-family: 'Faberge';
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #ffffff;
+}
+
+.section-reviews .card p {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.section-reviews h1 {
+    font-family: 'Faberge';
+    font-size: 60px;
+    color: #135284;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.section-reviews .container .col {
+    padding: 0;
+}
+
+.section-reviews .text-center {
+    text-align: start !important;
+}
+
+footer {
+    background-color: #135284;
+}
+
+footer p {
+    margin-bottom: 0 !important;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.section-yandexmap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.section-yandexmap .container1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    height: 100%;
+    width: 100% !important;
+    visibility: visible;
+    opacity: 1;
+    background-color: #135184b4;
+}
+
+.section-yandexmap .container1 .contacts {
+    width: 1320px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    gap: 50px;
+
+}
+
+
+.section-yandexmap:hover .container1 {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.feedback {
+    background-image: url(../img/section-form.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.feedback .container {
+    width: 1320px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback .container .col-5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback .container .col-5 .form-control {
+    width: 100%;
+}
+
+.feedback .container .main {
+    background-color: rgba(255, 255, 255, 0.800);
+    width: 1194px;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.feedback .container .row {
+    display: flex;
+    justify-content: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.feedback .container .firstt {
+    width: 70%;
+}
+
+.feedback .container .one {
+    margin-left: 160px;
+}
+
+.feedback .container p {
+    margin-bottom: 0 !important;
+    color: #135284;
+    font-size: 24px;
+}
+
+.feedback .container h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #135284;
+    font-family: 'Faberge';
+    margin-top: 60px;
+    margin-bottom: 40px !important;
+}
+
+.feedback .container .btnn-primaryy {
+    width: 220px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 1s;
+    background-color: #135284;
+    color: #ffffff;
+    border-radius: 5px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    margin-bottom: 50px;
+}
+
+.form-control {
+    border: solid 2px #135284;
+}
+
+.form-label {
+    font-size: 24px;
+    margin-bottom: .5rem;
+    color: #135284;
+    font-family: 'Faberge';
+}
+
+textarea.form-control {
+    margin-bottom: 20px;
+}
+
+.section-zagalovok .container h1 {
+    font-size: 60px;
+    font-family: 'Faberge';
+    color: #135284;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.section-bannertwo .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-bannertwo .logotip {
+    height: 53px;
+    width: 62px;
+}
+
+.section-bannertwo {
+    background-color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.section-bannertwo .elements {
+    --vk-symbol-fill: #135284;
+    --vk-bg-fill: #fff;
+
+    border: solid 1px #135284;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 728px;
+    height: 90px;
+    padding: 0;
+    animation-name: color-to-blue;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: #ffffff;
+}
+
+.section-bannertwo .container .logotext p {
+    animation-name: color-to-white;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.section-bannertwo .container .logotext .logotip {
+    animation-name: color-to-white;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.wk-icon--bg {
+    fill: var(--vk-bg-fill);
+    transition: fill 2s;
+}
+
+.wk-icon--symbol {
+    fill: var(--vk-symbol-fill);
+    transition: fill 2s;
+}
+
+@keyframes color-to-white {
+    0% {}
+
+    100% {
+        filter: grayscale(100%) brightness(400%);
+    }
+}
+
+@keyframes color-to-blue {
+    0% {
+        --vk-bg-fill: #135284;
+        --vk-symbol-fill: #fff;
+        background-color: #ffffff;
+
+    }
+
+    50% {
+        --vk-symbol-fill: #135284;
+        --vk-bg-fill: #fff;
+
+        background-color: #135284;
+    }
+
+    100% {
+        --vk-bg-fill: #135284;
+        --vk-symbol-fill: #fff;
+        background-color: #ffffff;
+    }
+}
+
+.section-bannertwo .elements .viber {
+    margin-right: 72px;
+    margin-left: 34px;
+}
+
+.section-bannertwo .elements .wk {
+    margin-left: 24px;
+}
+
+.section-bannertwo .elements .whatsapp {
+    margin-left: 73px;
+    margin-right: 34px;
+}
+
+.section-bannertwo .elements .logotext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    color: #135284;
+    font-weight: 600;
+}
+
+.section-bannertwo .elements .logotext p {
+    margin-top: 10px;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 0 !important;
+}
+
+.section-reviews .container .white-2 {
+    width: 220px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 1s;
+    background-color: #135284;
+    color: #ffffff;
+    border-radius: 5px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    margin-bottom: 80px;
+    border: 0px;
+}
+
+.section-reviews .container .white-2:hover {
+    background-color: #A3286E;
+    transition: 1s;
+    color: #ffffff;
+}
+.modal-body h1 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.modal-body .mb-4 {
+    margin-bottom: 15px !important;
+}
+
+.modal-body p {
+    margin-bottom: 0px !important;
+}
+
+.modal-body .btnn-primaryy {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 1s;
+    background-color: #135284;
+    color: #ffffff;
+    border-radius: 5px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    margin-bottom: 30px;
+    border: 0px;
+}
+
+.section-yandexmap .contacts h5 {
+    font-size: 30px;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .me-lg-3 {
+    margin-right: 0rem !important;
+}
+footer .mb-3 {
+    margin-bottom: 0rem !important;
+}
+footer p{
+    font-size: 16px;
+}
+footer img{
+    margin-right: 10px;
+}
+footer form{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+@media (max-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1320px;
+    }
+
+    .section-onas img {
+        padding-top: 34px;
+        padding-bottom: 34px;
+        width: 565px;
+        height: 718px;
+        padding-left: 34px;
+    }
+
+    .square {
+        width: 565px;
+        height: 650px;
+        background-color: #135284;
+        margin-top: 34px;
+    }
+
+    .section-onas h1 {
+        font-size: 52px;
+    }
+
+    .section-onas p {
+        font-size: 16px;
+        width: 495px;
+    }
+
+    .section-products .col-9 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-products h1 {
+        font-size: 30px;
+        color: #135284;
+        font-family: 'Faberge';
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .section-products .start {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-weight: 400;
+        color: #135284;
+        width: 100%;
+    }
+
+    .section-products .col-9 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-products .col-9 .card .one,
+    .two,
+    .three {
+        width: 200px;
+    }
+
+    .section-products .first {
+        width: auto;
+    }
+
+    .carousel-indicators {
+        right: -6px;
+    }
+
+    .section-products .col-9 .card p {
+        width: auto;
+        margin-top: 15px;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .section-reviews .card {
+        width: 100%;
+        margin-bottom: 60px;
+        margin-left: 10px;
+        background-color: #135284;
+    }
+
+    .feedback .container .row {
+        display: flex;
+        justify-content: center;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedback .container .one {
+        margin-left: 0px;
+    }
+
+    .feedback .container .col-5 {
+        align-items: center;
+    }
+
+    .feedback .container .main {
+        background-color: rgba(255, 255, 255, 0.800);
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .feedback .container .row .second {
+        width: 70%;
+    }
+
+    .feedback .container {
+        padding-left: 0;
+    }
+
+    .feedback .container {
+        width: 1200px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-yandexmap .contacts h5 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1140px;
+    }
+
+    .navbar-nav {
+        gap: 30px;
+    }
+
+    .nav-item a {
+        font-size: 18px;
+    }
+
+    .section-welcome h1 {
+        font-size: 50px;
+        width: 830px;
+    }
+
+    .section-welcome p {
+        font-size: 20px;
+        color: white;
+        font-family: 'Montserrat';
+        width: 577px;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .section-onas img {
+        padding-top: 34px;
+        padding-bottom: 34px;
+        width: 475px;
+        height: 650px;
+        padding-left: 25px;
+    }
+
+    .square {
+        width: 475px;
+        height: 582px;
+        background-color: #135284;
+        margin-top: 34px;
+    }
+
+    .section-onas h1 {
+        margin-bottom: 25px !important;
+    }
+
+    .section-onas p {
+        font-size: 14px;
+        width: 440px;
+    }
+
+    .section-onas h1 {
+        font-size: 46px;
+    }
+
+    .section-products .col-9 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-products .col-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        justify-content: center;
+        padding-right: 0 !important;
+        padding-left: 13px;
+    }
+
+    .section-products .col-9 .card,
+    .one,
+    .two,
+    .three {
+        width: 200px !important;
+    }
+
+    .section-products h1 {
+        font-size: 26px;
+        color: #135284;
+        font-family: 'Faberge';
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 105%;
+        overflow: hidden;
+    }
+
+    .section-products .carousel-item .row {
+        gap: 20px;
+    }
+
+    .section-products .col-9 .card p {
+        width: auto;
+        margin-top: 15px;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .feedback .container h1 {
+        text-align: center;
+        font-size: 50px;
+        padding-left: 0;
+    }
+
+    .feedback .container .main .second .one {
+        width: 66.66666667% !important;
+    }
+
+    .feedback .container {
+        width: 1000px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-yandexmap .contacts h5 {
+        font-size: 22px;
+    }
+
+    .section-zagalovok .container h1 {
+        font-size: 50px;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .section-double header .btn {
+        display: none;
+    }
+
+    .navbar-nav {
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .section-welcome h1 {
+        font-size: 40px;
+        width: 647px;
+        margin-top: 30px;
+    }
+
+    .section-welcome p {
+        font-size: 18px;
+        width: 517px;
+        margin-bottom: 50px;
+    }
+
+    .section-welcome .btn-primary {
+        width: 210px;
+        height: 50px;
+        font-size: 18px;
+        margin-bottom: 140px;
+    }
+
+    .section-onas .row {
+        flex-direction: column;
+    }
+
+    .section-onas .col-md-12 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .square {
+        width: 500px;
+        height: 550px;
+        background-color: #135284;
+        margin-top: 0px;
+        margin-bottom: 34px;
+    }
+
+    .section-onas .col-6 {
+        padding: 0;
+        height: auto;
+    }
+
+    .section-onas img {
+        padding-bottom: 34px;
+        width: 500px;
+        height: 620px;
+        padding-left: 0px;
+    }
+
+    .section-products .first {
+        width: auto;
+        height: auto;
+    }
+
+    .section-products .container .three {
+        display: none;
+    }
+
+    .section-products .first {
+        height: 550px;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 110%;
+        overflow: hidden;
+    }
+
+    .section-reviews h1 {
+        font-family: 'Faberge';
+        font-size: 50px;
+        color: #135284;
+        padding-top: 80px;
+        padding-bottom: 46px;
+    }
+
+    .section-reviews .card img {
+        width: 140px;
+        height: 120px;
+    }
+
+    .section-reviews .card h4 {
+        font-size: 26px;
+    }
+
+    .section-reviews .card h5 {
+        font-size: 12px;
+    }
+
+    .section-reviews .card p {
+        font-size: 14px;
+    }
+
+    .feedback .container h1 {
+        text-align: center;
+        font-size: 40px;
+        padding-left: 0;
+    }
+
+    .feedback .container {
+        width: 770px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-yandexmap .contacts h5 {
+        font-size: 18px;
+    }
+
+    .section-zagalovok .container h1 {
+        font-size: 42px;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+
+    .section-products .carousel-item .row {
+        gap: 35px;
+    }
+
+    .carousel-indicators {
+        right: 50px;
+    }
+    footer form {
+        justify-content: center;
+    }
+    footer .nav{
+        justify-content: center;
+        align-items: center;
+    }
+    footer .container .d-flex{
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px;
+    }
+
+    .section-welcome h1 {
+        font-size: 35px;
+        width: 580px;
+    }
+
+    .section-welcome p {
+        font-size: 16px;
+        width: 450px;
+        margin-bottom: 40px;
+    }
+
+    .section-welcome .btn-primary {
+        width: 180px;
+        height: 45px;
+        font-size: 16px;
+        margin-bottom: 140px;
+    }
+
+    .section-onas img {
+        padding-bottom: 34px;
+        width: 475px;
+        height: 570px;
+        padding-left: 0px;
+    }
+
+    .square {
+        width: 475px;
+        height: 500px;
+        background-color: #135284;
+        margin-top: 0px;
+    }
+
+    .section-products .container .two {
+        display: none;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 120%;
+        overflow: hidden;
+    }
+
+    .section-products h1 {
+        width: 100%;
+    }
+
+    .section-products .btnnn-primaryy {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .section-products .col-9 .card,
+    .one,
+    .two,
+    .three {
+        width: 220px !important;
+    }
+
+    .section-products .carousel-item .row {
+        margin-left: 75px;
+    }
+
+    .carousel-indicators {
+        right: -113px;
+    }
+
+    .section-reviews .card img {
+        width: 120px;
+        height: 100px;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+    }
+
+    .section-reviews .card h4 {
+        font-size: 20px;
+    }
+
+    .section-reviews h1 {
+        font-size: 40px;
+    }
+
+    .section-reviews .container .white-2 {
+        width: 180px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .feedback .container {
+        width: 576px !important;
+    }
+
+    .section-bannertwo .elements .logotext p {
+        font-size: 9px;
+    }
+
+    .section-bannertwo .elements .whatsapp {
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+
+    .section-bannertwo .elements .viber {
+        margin-right: 34px;
+        margin-left: 34px;
+    }
+
+    .section-bannertwo .elements {
+        width: 100%;
+    }
+
+    .section-bannertwo .elements .tg {
+        margin-right: 24px;
+    }
+
+    .section-yandexmap .contacts h5 {
+        font-size: 14px;
+    }
+
+    .section-yandexmap .container1 .contacts {
+        gap: 20px;
+    }
+
+    .section-zagalovok .container h1 {
+        font-size: 36px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .carousel-indicators {
+        right: -38px;
+    }
+
+    .section-products h1 {
+        font-size: 22px;
+    }
+
+    .section-products .start {
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 540px;
+    }
+
+    .nav-item a {
+        font-size: 12px;
+    }
+
+    .section-welcome h1 {
+        font-size: 20px;
+        width: 330px;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .section-welcome p {
+        font-size: 12px;
+        width: 303px;
+        margin-bottom: 30px;
+    }
+
+    .section-welcome .btn-primary {
+        width: 140px;
+        height: 40px;
+        font-size: 14px;
+        margin-bottom: 110px;
+    }
+
+    .section-onas img {
+        padding-bottom: 34px;
+        width: 296px;
+        height: 400px;
+        padding-left: 0px;
+    }
+
+    .square {
+        width: 296px;
+        height: 330px;
+        background-color: #135284;
+        margin-top: 0px;
+    }
+
+    .section-onas h1 {
+        font-size: 24px;
+    }
+
+    .section-onas p {
+        font-size: 10px;
+        width: 295px;
+    }
+
+    .section-bannerfirst .elements {
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 60px;
+        margin: 10px;
+        padding: 0;
+    }
+
+    .section-bannerfirst .btnn-primary {
+        width: 108px;
+        height: 30px;
+        font-size: 9px;
+        font-weight: 600;
+    }
+
+    .section-bannerfirst .strelka {
+        margin-right: 6px;
+        width: 30px;
+        height: 25px;
+    }
+
+    .section-bannerfirst .elements p {
+        font-family: 'Montserrat';
+        font-size: 8px;
+        font-weight: 500;
+        color: white;
+        margin-bottom: 0;
+        margin-right: 3px;
+    }
+
+    .section-bannerfirst .container {
+        padding: 0;
+    }
+
+    .section-bannerfirst .elements {
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0;
+    }
+
+    .section-bannerfirst .logo {
+        height: 40px;
+        width: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .section-bannerfirst .row {
+        width: auto !important;
+    }
+
+    .section-products .first {
+        height: 575px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .section-products .col-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        padding-right: 0 !important;
+        padding-left: 50px;
+    }
+
+    .section-products .container .col-5 img {
+        width: 56px;
+    }
+
+    .section-products .carousel-item .row {
+        margin-left: 0px;
+    }
+
+    .section-products .col-5 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .section-products .card {
+        height: 95%;
+        width: 100% !important;
+    }
+
+    .section-products .card p {
+        font-size: 12px;
+    }
+
+    .section-products .col-7 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .section-products .col-3 img {
+        width: 100%;
+        height: 75%;
+        padding: 5px;
+    }
+
+    .carousel-indicators {
+        right: -23px;
+    }
+
+    .section-products .col-7 {
+        flex: 0 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-products .col-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        padding-right: 0 !important;
+        padding-left: 0px;
+    }
+
+    .section-products .col-9 {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 144%;
+        overflow: hidden;
+    }
+
+    .section-products h1 {
+        text-align: center;
+    }
+
+    .card-body {
+        padding: 5px !important;
+    }
+
+    .section-products .start {
+        text-align: center;
+    }
+
+    .section-products .btnnn-primaryy {
+        width: 110px;
+        height: 35px;
+        font-size: 8px;
+    }
+
+    .section-products .col-3 .photo {
+        width: 75px;
+        height: 65px;
+        margin-left: 80px;
+    }
+
+    .section-reviews .container .col-6 .twooo,
+    .oneee {
+        display: none;
+    }
+
+    .section-reviews .text-center {
+        flex-direction: column;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .section-reviews h1 {
+        font-size: 24px;
+        padding-top: 40px;
+        padding-bottom: 23px;
+    }
+
+    .section-reviews .card h4 {
+        font-size: 18px;
+    }
+
+    .section-reviews .card {
+        margin-bottom: 30px;
+    }
+
+    .feedback .container {
+        width: 320px !important;
+    }
+
+    .feedback .container h1 {
+        text-align: center;
+        font-size: 24px;
+        padding-left: 0;
+    }
+
+    .feedback .container p {
+        margin-bottom: 0 !important;
+        color: #135284;
+        font-size: 16px;
+    }
+
+    .form-label {
+        font-size: 16px;
+    }
+
+    .feedback .container .btnn-primaryy {
+        width: 150px;
+        height: 45px;
+        font-size: 16px;
+        font-weight: 400;
+        transition: 1s;
+        background-color: #135284;
+        color: #ffffff;
+        border-radius: 5px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 18px;
+        margin-bottom: 50px;
+    }
+
+    .feedback .container .main .second .one {
+        width: 100% !important;
+    }
+
+    .section-bannertwo .logotip {
+        height: 39px;
+        width: 39px;
+    }
+
+    .section-bannertwo .elements .whatsapp {
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+
+    .section-bannertwo .elements .tg {
+        margin-right: 3px;
+    }
+
+    .section-bannertwo .elements .wk {
+        margin-left: 3px;
+    }
+
+    .section-bannertwo .elements .viber {
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+
+    .section-bannertwo .elements .logotext p {
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .section-yandexmap .contacts h5 {
+        font-size: 12px;
+    }
+
+    .section-zagalovok .container h1 {
+        font-size: 26px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .section-bannertwo {
+        background-color: #ffffff;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    footer .nav img {
+        margin-right: 0px;
+        width: 70px;
+        height: 60px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    footer .col-12 .bot{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 100%;
+    }
+}
